@@ -1,0 +1,7 @@
+.places__paragraph {
+    margin: 0px;
+}
+
+.places__paragraph:nth-child(2) {
+    margin: 36px 0px 0px 0px;
+}

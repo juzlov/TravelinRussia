@@ -1,0 +1,27 @@
+.places__place {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px 0px 72px 0px;
+}
+
+@media (max-width: 425px) {
+    .places__place {
+        max-width: 425px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .places__place {
+        max-width: 768px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .places__place {
+        max-width: 1024px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,24 @@
+.intro__subtitle {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+    margin: 45px 0px 0px 0px;
+}
+
+@media (max-width: 425px) {
+    .intro__subtitle {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .intro__subtitle {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .intro__subtitle {
+        display: none;
+    }
+}

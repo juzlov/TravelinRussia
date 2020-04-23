@@ -1,0 +1,8 @@
+.additional__container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin: 72px 0px 0px 0px;
+    width: 90%;
+    justify-content: flex-start;
+}

@@ -1,0 +1,26 @@
+.cover-bg {
+    background: #2A2C2F;
+    opacity: 0.7;
+    width: 100%;
+}
+
+@media (max-width: 425px) {
+    .cover-bg {
+        max-width: 425px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .cover-bg {
+        max-width: 768px;
+        width: 100%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .cover-bg {
+        max-width: 1024px;
+        width: 100%;
+    }
+}

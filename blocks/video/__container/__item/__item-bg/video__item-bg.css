@@ -1,0 +1,35 @@
+.video__item-bg {
+    background-color: #000000;
+    opacity: 0.5;
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    margin: 0px;
+}
+
+@media (max-width: 425px) {
+    .video__item-bg {
+        max-width: 425px;
+        width: 100%;
+        height: auto;   
+        margin: 0px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .video__item-bg {
+        max-width: 768px;
+        width: 100%;
+        height: auto;   
+        margin: 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .video__item-bg {
+        max-width: 1024px;
+        width: 100%;
+        height: auto;   
+        margin: 0px;
+    }
+}

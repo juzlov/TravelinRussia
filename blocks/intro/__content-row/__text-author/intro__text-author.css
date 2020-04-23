@@ -1,0 +1,25 @@
+.intro__text-author {
+font-size: 10px;
+line-height: 16px;
+width: 19%;
+padding-left: 18px;
+margin: 0px;
+}
+
+@media (max-width: 425px) {
+    .intro__text-author {
+        display: none;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .intro__text-author {
+        display: none;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .intro__text-author {
+        display: none;
+    }
+}
