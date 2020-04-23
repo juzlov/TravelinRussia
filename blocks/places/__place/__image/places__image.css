@@ -1,0 +1,29 @@
+.places__image {
+    width: 50%;
+    height: 50%;
+    margin: 60px 0px 0px 0px;
+}
+
+@media (max-width: 425px) {
+    .places__image {
+        max-width: 425px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .places__image {
+        width: 50%;
+        height: 50%;
+        margin: 40px 0px 0px 0px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .places__image {
+        width: 50%;
+        height: 50%;
+        margin: 40px 0px 0px 0px;
+    }
+}

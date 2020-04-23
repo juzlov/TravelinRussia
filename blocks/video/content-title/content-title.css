@@ -1,0 +1,36 @@
+.content-title {
+    width: 67%;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 78px;
+    text-align: center;
+    margin: 0px;
+}
+
+@media (max-width: 425px) {
+    .content-title {
+        max-width: 425px;
+        width: 90%;
+        font-size: 32px;
+        line-height: 35px;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .content-title {
+        max-width: 768px;
+        width: 90%;
+        font-size: 42px;
+        line-height: 46px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .content-title {
+        max-width: 1024px;
+        width: 65%;
+        font-size: 3.5em;
+        line-height: 1.1;
+    }
+}

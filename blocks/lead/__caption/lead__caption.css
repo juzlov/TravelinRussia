@@ -1,0 +1,33 @@
+.lead__caption {
+    text-align: left;
+    width: 100%;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 425px) {
+    .lead__caption {
+        max-width: 425px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .lead__caption {
+        max-width: 768px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .lead__caption {
+        max-width: 1024px;
+        width: 90%;
+    }
+}

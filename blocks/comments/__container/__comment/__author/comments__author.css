@@ -1,0 +1,23 @@
+.comments__author {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 24px 0px 0px 0px;
+}
+
+@media (max-width: 425px) {
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .comments__author {
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+    }
+}
